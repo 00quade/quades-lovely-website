@@ -1,0 +1,45 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.img__stars {
+    position: absolute;
+    width: 1575px;
+
+}
+
+.img__id {
+    position: absolute;
+    width: 420px;
+
+}
+
+.img__about {
+    position: absolute;
+    width: 65px;
+    transform: translate(-110px, 145px);
+}
+
+.img__links {
+    position: absolute;
+    width: 55px;
+    transform: translate(-41px, 145.5px);
+}
+
+.img__shop {
+    position: absolute;
+    width: 55px;
+    transform: translate(20px, 148px);
+}
+
+.img__portfolio {
+    position: absolute;
+    width: 90px;
+    transform: translate(100px, 148px);
+}
