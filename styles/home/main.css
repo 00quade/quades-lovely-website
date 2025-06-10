@@ -22,24 +22,24 @@
 
 .img__about {
     position: absolute;
-    width: 65px;
-    transform: translate(-110px, 145px);
+    width: 70px;
+    transform: translate(-122px, 145px);
 }
 
 .img__links {
     position: absolute;
     width: 55px;
-    transform: translate(-41px, 145.5px);
+    transform: translate(-46px, 145.5px);
 }
 
 .img__shop {
     position: absolute;
-    width: 55px;
-    transform: translate(20px, 148px);
+    width: 58px;
+    transform: translate(22px, 148px);
 }
 
 .img__portfolio {
     position: absolute;
     width: 90px;
-    transform: translate(100px, 148px);
+    transform: translate(109px, 148px);
 }
