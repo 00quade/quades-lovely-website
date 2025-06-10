@@ -1,45 +1,50 @@
-.main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 100vw;
-    height: 100vh;
-
-}
-
-.img__stars {
+.image__stars {
     position: absolute;
     width: 1575px;
-
 }
 
-.img__id {
+.image__id {
     position: absolute;
     width: 420px;
-
+    transform: rotate(-0.5deg);
 }
 
-.img__about {
-    position: absolute;
+.image-button__about {
     width: 70px;
-    transform: translate(-122px, 145px);
+    transform: translate(-122px, 145px) rotate(1deg);
 }
 
-.img__links {
-    position: absolute;
+.image-button__about:hover {
+    opacity: 0.9;
+    background-color: #fffda57a;
+}
+
+.image-button__links {
     width: 55px;
-    transform: translate(-46px, 145.5px);
+    transform: translate(-46px, 145.5px) rotate(-1deg);
 }
 
-.img__shop {
-    position: absolute;
+.image-button__links:hover {
+    opacity: 0.9;
+    background-color: #fffda57a;
+}
+
+.image-button__shop {
     width: 58px;
-    transform: translate(22px, 148px);
+    transform: translate(22px, 148px) rotate(-0.5deg);
 }
 
-.img__portfolio {
-    position: absolute;
+.image-button__shop:hover {
+    opacity: 0.9;
+    background-color: #fffda57a;
+}
+
+.image-button__portfolio {
     width: 90px;
-    transform: translate(109px, 148px);
+    transform: translate(109px, 148px) rotate(0.25deg);
+}
+
+.image-button__portfolio:hover {
+    opacity: 0.9;
+    background-color: #fffda57a;
 }

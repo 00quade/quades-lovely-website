@@ -9,20 +9,28 @@
 
     <script src="scripts/utils.js"></script>
 
-    <link rel="stylesheet" href="styles/home/body.css">
-    <link rel="stylesheet" href="styles/home/main.css"
+    <link rel="stylesheet" href="styles/common/body.css">
+    <link rel="stylesheet" href="styles/common/container.css">
+    
+    <link rel="stylesheet" href="styles/common/image-button.css">
+    
+    <link rel="stylesheet" href="styles/home/main.css">
+    
 </head>
 
 <body>
     <div class="main-container">
-        <img class="img__stars" src="assets/images/stars.png">
-        <img class="img__id" src="assets/images/id.png">
-        <img class="img__about" onclick="openPage('about.html')"src="assets/images/about.png">
-        <img class="img__links" onclick="openPage('links.html')"src="assets/images/links.png">
-        <img class="img__shop" onclick="openPage('https:\/\/payhip.com\/quade')"src="assets/images/shop.png">
-        <img class="img__portfolio" onclick="openPage('portfolio.html')"src="assets/images/portfolio.png">
+        <img class="image__stars" src="assets/images/stars.png" draggable="false">
+        <img class="image__id" src="assets/images/id.png" draggable="false">
+        <img class="image-button image-button__about" onclick="openPage('about.html')" src="assets/images/about.png"
+            draggable="false">
+        <img class="image-button image-button__links" onclick="openPage('links.html')" src="assets/images/links.png"
+            draggable="false">
+        <img class="image-button image-button__shop" onclick="openPage('https:\/\/payhip.com\/quade')"
+            src="assets/images/shop.png" draggable="false">
+        <img class="image-button image-button__portfolio" onclick="openPage('portfolio.html')"
+            src="assets/images/portfolio.png" draggable="false">
     </div>
-
 </body>
 
 </html>

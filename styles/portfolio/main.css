@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.image__ps {
+    width: 150px;
+    transform: translate(-170px, 0) rotate(-1deg);
+}
+
+.image__ae {
+    width: 150px;
+    transform: rotate(0.5deg);
+}
+
+.image__fl {
+    width: 150px;
+    transform: translate(170px, 0) rotate(-0.5deg);
+}
